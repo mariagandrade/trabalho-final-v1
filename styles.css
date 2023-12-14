@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #544feb;
+    text-align: center;
+}
+
+#story-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #6591dd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(6, 6, 6, 0.1);
+}
+#story-text {
+    font-size: 1.5em;
+    margin: 10px;
+}
+
+.choice {
+    font-size: 1em;
+    margin: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #008CBA;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #00688B;
+}
+
+#choices-container button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+
